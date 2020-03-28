@@ -1,0 +1,33 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+}
+
+.about-scan {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+div .profil-infos {
+    text-align: center;
+    color: blue;
+}
+
+div .more-about {
+    text-align: center;
+    color: crimson;
+}
+div {
+    margin: auto;
+    border: solid 1px white;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px
+}
