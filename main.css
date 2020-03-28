@@ -5,11 +5,13 @@
 
 .about-scan {
     text-align: center;
+    margin-top: 2000px;
 }
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
+
 }
 div .profil-infos {
     text-align: center;
