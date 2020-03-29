@@ -3,33 +3,31 @@
     margin: 0;
 }
 
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .about-scan {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 3em;
     font-family: 'Roboto', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    color: rgb(0, 67, 112);
+    font-size: 25px;
+    color: white;
 }
-
-body {
-    background: rgb(72,95,255);
-    background: linear-gradient(355deg, rgba(72,95,255,1) 25%, rgba(0,162,255,1) 69%, rgba(136,211,251,1) 100%);
-    height: 100vh;
-}
-
 
 .link-insert {
-    margin: 3em 1.8em 2em 1.8em;
-    color: black;
-    background-color: white;
+    width: 360px;
+    height: 25px;
+    margin: 4em auto 2em auto; /*haut - droite - bas - gauche */
     line-height: 10px;
     border-radius: 20px;
-    text-decoration-line: underline;
-    text-decoration-color: chocolate;
+    color: black;
+    background-color: white;
 }
 
 input {
-
     margin-top: 2px;
     background: rgba(255,255,255,0.4);
     border: none;
@@ -47,14 +45,21 @@ div .link-insert {
     text-align: center;
 }
 div .profil-infos {
+    display: block;
+    position: relative;
     text-align: center;
-    color: black;
+    color: white;
+    padding-bottom: 30px;
     padding-top: 30px;
+}
+
+p {
+
 }
 
 div .more-about {
     text-align: center;
-    color: crimson;
+    color: white;
     margin: auto;
 }
 
@@ -64,7 +69,18 @@ div .more-about {
 }
 
 .scan-list {
-    background:rgb(255,255,255);
+    font-family: 'Roboto', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.vignette {
+    display: flex;
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+}
+
+.vignette:hover {
+    border: white;
 }
 
 
@@ -72,4 +88,7 @@ img {
     height: 100px;
     width: 100px;
     border-radius: 10px;
+    border: solid white 3px;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
 }
