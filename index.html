@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=500, initial-scale=1">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Scan-Friend Steam</title>
 </head>
@@ -13,8 +14,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 about-scan"> 
-                <h1>SCAN YOUR FRIENDLIST</h1>
-                <h2>AND LOOK WHO GOT CATCH</h2>
+                <div>SCAN YOUR FRIENDLIST STEAM</div>
+                <div>and look who got catch by Valve</div>
             </div>
         </div>
     </div>
@@ -23,8 +24,10 @@
     <div class="container start-script">
         <div class="row">
             <div class="col-lg-12"> 
-                <div>
-                    <input class="button">
+                <div class="link-insert">
+                    <label for="link"> YOUR STEAM PROFILE :</label>
+                    <input type="link" id="profile" name="profile" required
+                    minlength="15" maxlength="70" size="20">
                 </div>
             </div>
         </div>
@@ -38,16 +41,7 @@
             </div>
             <div class="col-lg-6 more-about">
                 <p>1601 day(s) since last ban</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 profil-infos">
-                <img src="icon-profil.png">
-                <P>PSEUDO</P>
-            </div>
-            <div class="col-lg-6 more-about">
-                <p>2430 day(s) since last ban</p>
+                <button class="btn-link"> Copy link</button>
             </div>
         </div>
 
@@ -58,6 +52,7 @@
             </div>
             <div class="col-lg-6 more-about">
                 <p>478 day(s) since last ban</p>
+                <button class="btn-link"> Copy link</button>
             </div>
         </div>
 
@@ -68,6 +63,7 @@
             </div>
             <div class="col-lg-6 more-about">
                 <p>882 day(s) since last ban</p>
+                <button class="btn-link"> Copy link</button>
             </div>
         </div>
     </div>
