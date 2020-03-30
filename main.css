@@ -4,52 +4,32 @@
 }
 
 body {
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+    background: -webkit-linear-gradient(bottom left, rgba(49, 247, 222, 1.0), rgba(73, 55, 205, 1.0));
+    background: -moz-linear-gradient(bottom left, rgba(49, 247, 222, 1.0), rgba(73, 55, 205, 1.0));
+    background: linear-gradient(to bottom right, rgba(49, 247, 222, 1.0), rgba(73, 55, 205, 1.0));
+    
     height: 100vh;
     background-attachment: fixed;
 }
+/* background: rgba(49, 247, 222, 1.0);
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
 
 .about-scan {
     text-align: center;
-    margin-top: 3em;
+    margin: 3em auto 1em auto;
     font-size: 25px;
     color: white;
 }
 
-.link-insert {
-    display: block;
-    text-align: center;
-    width: 320px;
-    height: 30px;
-    margin: 4em auto 0em auto; /*haut - droite - bas - gauche */
-    line-height: 0px;
-    border-bottom: solid 1px white;
-    border-top: 0;
-    border-radius: 0px;
-    font-size: 15px;
-    color: white;
-    background-color: transparent;
-    transition: 0.4s;
-}
-
-.link-insert:focus {
-    color:  #a8eb12;
-    border-color: #a8eb12;
-}
-
-.btn-start-scan {
-    display: block;
-    margin: 1em auto 3em auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    border: solid 1px white;
-    border-radius: 15pc;
-    outline: none;
-    background-color: white;
-}
+ /*haut - droite - bas - gauche */
 
 .btn-start-scan:focus {
     background: linear-gradient(to left bottom, #3ef7ad, #c5ff47);
+}
+
+#group-profile {
+    border-bottom: solid 1px white;
 }
 
 #profile {
@@ -58,7 +38,33 @@ body {
     border: none;
     outline: none;
     color: white;
+    box-shadow: none;
 }
+
+#profile:hover{
+    color: #a8eb12;
+}
+
+#profile-label {
+    height: 20px;
+    line-height: 44px;
+    color: white;
+}
+#button-addon2 {
+    bottom: -1px;
+    box-shadow: none;
+}
+
+#button-addon2:active {
+    color: white;
+    background-color: #a8eb12;
+    box-shadow: none;
+}
+
+/* #profile:focus-within {
+    color:  #a8eb12;
+    border-color: #a8eb12;
+} */
 
 .item {
     display: inline;
@@ -69,7 +75,7 @@ body {
 
 .results {
     display: block;
-    margin: auto;
+    margin: auto auto 4em auto;
     text-align: center;
     text-decoration: underline;
     color: white;
@@ -94,24 +100,21 @@ div .more-about {
 
 .btn-link {
     display: inline;
-    width: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    background-color: white;
-    border: solid 1px white;
-    border-radius: 15pc;
-    outline: none;
+    margin: 0 0.5em 0 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #015d92;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none;
+    color: white !important;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
 }
 
 .btn-link:active {
-    display: inline;
-    width: auto;
     background: linear-gradient(to left bottom, #3ef7ad, #c5ff47);
-    border: solid 1px transparent;
-    border-radius: 15pc;
-    outline: none;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 
 .scan-list {
@@ -123,7 +126,7 @@ div .more-about {
 }
 .vignette {
     display: flex;
-    background: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.3);
     border-radius: 10px;
     margin: 15px;
 }
@@ -133,19 +136,39 @@ div .more-about {
 }
 
 
-img {
+.img-icons {
     height: 100px;
     width: 100px;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 1.5em;
     border-radius: 10px;
-    border: solid white 3px;
+    border: solid #b80c00 2px;
     -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
     box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
 }
 
+.img-icons:hover {
+    border: solid transparent 3px;
+    box-shadow: none;
+}
+
+.id-icons {
+    display:inline;
+    margin-top: 1em;
+    height: 90px;
+    width: 95px;
+    border: dotted white 2px;
+    border-radius: 50%;
+}
+
+.id-icons:hover {
+    border-color: #c5ff47;
+}
+
 #end-about {
     display: block;
-    margin: 5em;
+    margin-top: 5em;
+    margin-bottom: 2em;
     text-align: center;
     border-radius: 30px;
 

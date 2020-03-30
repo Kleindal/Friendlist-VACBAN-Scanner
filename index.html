@@ -21,19 +21,31 @@
     </div>
 
 
-    <div class="container start-script">
+    <div class="container start-script mt-5">
         <div class="row">
             <div class="col-lg-12"> 
-                <div>
-                    <div  class="link-insert">
-                        <label for="link"> Your steam profile :</label>
-                        <input type="link" id="profile" name="profile" required
-                        minlength="15" maxlength="70" size="20">
-                        <input type="submit" value="OK" style="height:30px;vertical-align:middle">
-                    </div>
-                    <div>
-                        <button class="btn-start-scan">Scan now !</button>
-                    </div>
+                <div class="d-flex justify-content-center">
+                    <div class="input-group mb-3" id="group-profile" style="width: 500px;">
+                        <label for="profile" id="profile-label"> Steam profile :</label>
+                        <input type="text" id="profile" class="form-control">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-light btn" type="button" id="button-addon2">Scan!</button>
+                        </div>
+                      </div>
+                    <!-- <div class="input-group mb-3 link-insert-bs"">
+                        <label for="text"> Your steam profile :</label>
+                        <input type="link" id="profile" required minlength="15" maxlength="70">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-light" type="button" id="button-addon2">Button</button>
+                        </div>
+                      </div> -->
+                    <!-- <div class="link-insert">
+                        <label for="text"> Your steam profile :</label>
+                        <input type="link" id="profile" required minlength="15" maxlength="70">
+                    </div> -->
+                    <!-- <div> 
+                        <input class="submit" type="submit" value="Scan now !" style="height:30px;vertical-align:middle">
+                    </div> -->
                 </div>
                 <div class="item">
                     <div>YoUrPseudo123 - 182 friends analyzed</div>
@@ -50,7 +62,23 @@
             </div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
+                </div>
+                <div class="more-about">
+                    <p>PSEUDO</p>
+                    <p>1601 day(s) since last ban</p>
+                    <button class="btn-link">Copy</button>
+                    <button class="btn-link">Scan now</button>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 vignette">
+                <div class="profil-infos">
+                    <img class="img-icons" src="img/icon-profil.png">
                 </div>
                 <div class="more-about">
                     <p>PSEUDO</p>
@@ -65,7 +93,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
                 </div>
                 <div class="more-about">
                     <p>PSEUDO</p>
@@ -80,22 +108,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
-                </div>
-                <div class="more-about">
-                    <p>PSEUDO</p>
-                    <p>1601 day(s) since last ban</p>
-                    <button class="btn-link"> Copy link</button>
-                </div>
-            </div>
-            <div class="col-lg-2"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 vignette">
-                <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
                     
                 </div>
                 <div class="more-about">
@@ -111,7 +124,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
                 </div>
                 <div class="more-about">
                     <p>PSEUDO</p>
@@ -126,7 +139,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
                 </div>
                 <div class="more-about">
                     <p>PSEUDO</p>
@@ -141,7 +154,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8 vignette">
                 <div class="profil-infos">
-                    <img src="icon-profil.png">
+                    <img class="img-icons" src="img/icon-profil.png">
                 </div>
                 <div class="more-about">
                     <p>PSEUDO</p>
@@ -153,9 +166,13 @@
         </div>
         <footer>
             <div class="row">
-                <div class="col-lg-6" id="end-about">
-                    <img src="icon-profil.png">
+                <div class="col-lg-12" id="end-about">
+                    <img class="id-icons" src="img/kanou-icon.png">
+                    <div>Kanou HTML/CSS</div>
+                    <img class="id-icons" src="img/nekou-icon.png"> 
+                    <div>Nekou PHP du Q</div> 
                 </div>
+                
                 <div class="col-lg-6 more-about">
                 </div>
             </div>
