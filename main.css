@@ -55,6 +55,12 @@ background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf
     box-shadow: none;
 }
 
+#button-addon2:hover{
+    color: #a8eb12;
+    background-color: transparent;
+    box-shadow: none;
+}
+
 #button-addon2:active {
     color: white;
     background-color: #a8eb12;
@@ -103,8 +109,8 @@ div .more-about {
     margin: 0 0.5em 0 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    background-color: #015d92;
-    border: solid 1px transparent;
+    background-color: #2c92ce;
+    border: solid 2px transparent;
     border-radius: 5px;
     outline: none !important;
     box-shadow: none;
@@ -113,6 +119,10 @@ div .more-about {
     text-decoration-style: none !important;
 }
 
+.btn-link:hover {
+    border: solid 2px #2c92ce !important;
+    background-color: transparent;
+}
 .btn-link:active {
     background: linear-gradient(to left bottom, #3ef7ad, #c5ff47);
 }
