@@ -130,6 +130,7 @@ div .more-about {
 .scan-list {
     display: block;
     margin-left: 1em;
+    margin-bottom: 8em;
     font-family: 'Roboto', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     color: white;
@@ -149,8 +150,7 @@ div .more-about {
 .img-icons {
     height: 100px;
     width: 100px;
-    margin-left: 0.5em;
-    margin-right: 1.5em;
+    margin: 1em 1.5em auto 0.5em;
     border-radius: 10px;
     border: solid #b80c00 2px;
     -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
@@ -162,9 +162,17 @@ div .more-about {
     box-shadow: none;
 }
 
+
+
+
+footer {
+    display: inline-block;
+    vertical-align: auto;
+    margin-bottom: 10em;
+}
+
 .id-icons {
-    display:inline;
-    margin-top: 1em;
+    margin: 0.5em;
     height: 90px;
     width: 95px;
     border: dotted white 2px;
@@ -175,11 +183,15 @@ div .more-about {
     border-color: #c5ff47;
 }
 
-#end-about {
-    display: block;
-    margin-top: 5em;
-    margin-bottom: 2em;
+.end-about {
+    margin-bottom: 0em;
     text-align: center;
     border-radius: 30px;
 
+}
+
+.jumbotron {
+    padding: 15px 0 !important;
+    text-align: center;
+    background-color: transparent !important;
 }
